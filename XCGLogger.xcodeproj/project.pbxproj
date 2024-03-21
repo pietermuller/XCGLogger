@@ -123,6 +123,10 @@
 		7573B4FA1DE41B5000726CE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7573B4CF1DE4182B00726CE1 /* Foundation.framework */; };
 		7573B4FC1DE41B5000726CE1 /* ObjcExceptionBridging.h in Headers */ = {isa = PBXBuildFile; fileRef = 7573B4C01DE4146300726CE1 /* ObjcExceptionBridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7573B5051DE41B7000726CE1 /* ObjcExceptionBridging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7573B5011DE41B5000726CE1 /* ObjcExceptionBridging.framework */; };
+		A7956C5D2BAC9C3A004FB551 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A7956C5C2BAC9C3A004FB551 /* PrivacyInfo.xcprivacy */; };
+		A7956C5E2BAC9C3A004FB551 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A7956C5C2BAC9C3A004FB551 /* PrivacyInfo.xcprivacy */; };
+		A7956C5F2BAC9C3A004FB551 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A7956C5C2BAC9C3A004FB551 /* PrivacyInfo.xcprivacy */; };
+		A7956C602BAC9C3A004FB551 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A7956C5C2BAC9C3A004FB551 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -229,6 +233,7 @@
 		7573B4E11DE41AC200726CE1 /* ObjcExceptionBridging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjcExceptionBridging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7573B4F01DE41B1800726CE1 /* ObjcExceptionBridging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjcExceptionBridging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7573B5011DE41B5000726CE1 /* ObjcExceptionBridging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjcExceptionBridging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7956C5C2BAC9C3A004FB551 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -488,6 +493,7 @@
 				55DA396419D7737B0032F026 /* iOS */,
 				55DA396619D7737B0032F026 /* macOS */,
 				55E37F5F1BFC648800392B9C /* tvOS */,
+				A7956C5C2BAC9C3A004FB551 /* PrivacyInfo.xcprivacy */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -903,6 +909,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7956C602BAC9C3A004FB551 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -910,6 +917,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7956C5E2BAC9C3A004FB551 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -938,6 +946,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7956C5D2BAC9C3A004FB551 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -952,6 +961,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7956C5F2BAC9C3A004FB551 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
